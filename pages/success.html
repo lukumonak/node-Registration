@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            align-items: center;
+
+            /*justify-content: center;*/
+            height: 100vh;
+        }
+
+        .success-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            margin: auto;
+            position: relative;
+            bottom:0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .success-container:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+        }
+        #success-container-id{
+            height: 15em;
+            width: 20em;
+            object-fit: cover;
+        }
+        #success-container-id p{
+            font-size: 10px;
+            text-align: left;
+            position: relative;
+            bottom: 10px;
+        }
+
+        img{
+            /*height: 95%;*/
+            width: 100%;
+        }
+
+        .success-icon {
+            color: #ffffff;
+            font-size: 48px;
+            margin-bottom: 20px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            border-radius: 50%;
+            width: 1.3em;
+            background-color: #0b8d0b;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .go-back-link {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .go-back-link:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="success-container">
+    <div class="success-icon">&#10004;</div>
+    <h1>Success!</h1>
+    <p>Your registration has been processed successfully.</p>
+    <p>GOOD LUCK for yor game day (16 jan).</p>
+
+    <a href="#" class="go-back-link">Go back</a>
+</div>
+
+<div class="success-container" id="success-container-id">
+    <img src="../assets/dp-1.jpg">
+    <p>Note: to complete the registration process you need to pay through the QR and you need to show the receipt on game day </p>
+</div>
+
+</body>
+</html>
